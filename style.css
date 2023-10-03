@@ -1,0 +1,62 @@
+body {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "nav nav nav"
+      "section section aside"
+      "footer footer footer";
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    height: 100vh;
+  }
+  
+  header {
+    grid-area: header;
+    background-color: #ccc;
+    padding: 10px;
+  }
+  
+  nav {
+    grid-area: nav;
+    background-color: #eee;
+    padding: 10px;
+  }
+  
+  section {
+    grid-area: section;
+    background-color: #f9f9f9;
+    padding: 10px;
+  }
+  
+  aside {
+    grid-area: aside;
+    background-color: #f9f9f9;
+    padding: 10px;
+  }
+  
+  footer {
+    grid-area: footer;
+    background-color: #ccc;
+    padding: 10px;
+  }
+  
+  article {
+    margin-bottom: 20px;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  } oila livia trindade vilasboas
