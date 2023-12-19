@@ -1,0 +1,48 @@
+body{
+    background-color: blue;
+    border: red 2px solid;
+}
+
+.box{
+    background-color: yellow;
+    border: white 5px solid;
+    height: 600px;
+    display: grid;
+    grid-template-areas: "topo topo topo"
+                          "mL cont mR"
+                          "rod rod rod";
+    grid-template-rows: 50px 1fr 90px;
+    grid-template-columns: 100px 1fr 100px;
+
+}
+
+.titulo{
+    background-color:red;
+    grid-area: topo;
+    
+}
+
+.menuE{
+    background-color: brown;
+    grid-area: mL;
+    
+}
+
+.conteudo{
+    background-color: green;
+    grid-area: cont;
+     
+}
+
+.menuR{
+    background-color: pink;
+    grid-area: mR;
+    
+}
+
+.rodape{
+    background-color: orange;
+    grid-area: rod;
+}
+
+
